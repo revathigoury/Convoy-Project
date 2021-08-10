@@ -1,0 +1,10 @@
+.select {
+  border: none;
+  font-family: ProximaNova-Medium;
+  font-size: 16px;
+  color: #14A9E6;
+  letter-spacing: 0.4px;
+  text-align: right;
+  line-height: 20px;
+  background: #F7F9FA;
+}

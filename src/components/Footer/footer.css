@@ -1,0 +1,12 @@
+.footer-container {
+  padding: 1rem;
+  background: #F7F7F7;
+}
+
+.footer-text {
+  font-family: ProximaNova-Medium;
+  font-size: 20px;
+  color: #B4BBBF;
+  letter-spacing: 0.5px;
+  text-align: center;
+}

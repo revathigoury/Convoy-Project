@@ -1,0 +1,51 @@
+.main {
+	background: #f7f7f7;
+	padding: 1rem 1.25rem;
+}
+
+.trucks-filter-container {
+	background: #f7f9fa;
+	border: 1px solid #d6dadc;
+	border-radius: 4px;
+	padding: 1rem;
+	font-family: ProximaNova-Medium;
+	font-size: 16px;
+	color: #5a666c;
+	letter-spacing: 0.4px;
+	line-height: 20px;
+}
+
+.trucks-container {
+	background: #ffffff;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	margin: 0.5rem 0;
+}
+
+.loader {
+	text-align: center;
+	padding: 1rem;
+}
+
+.filter-label,
+.order-label {
+	color: #5a666c;
+}
+
+.order-label {
+	margin-left: 1rem;
+}
+
+.show-more-button {
+	background: #848e93;
+	border-radius: 4px;
+	padding: 0.5rem 2.75rem;
+	font-family: ProximaNova-Bold;
+	font-size: 16px;
+	color: #ffffff;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 20px;
+	border: none;
+	cursor: pointer;
+}

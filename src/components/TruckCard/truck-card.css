@@ -1,0 +1,90 @@
+.card-container {
+	border-bottom: 1px solid #d6dadc;
+	padding: 1rem;
+}
+
+.banner {
+	font-family: ProximaNova-Regular;
+	font-size: 14px;
+	color: #ffffff;
+	letter-spacing: 0.35px;
+	line-height: 20px;
+	background: #14a9e6;
+	padding: 0.25rem;
+	text-transform: uppercase;
+}
+
+.truck-details-container {
+	padding: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.truck-from-container,
+.truck-to-container {
+	padding: 0.75rem 0 0.75rem 0.5rem;
+	position: relative;
+}
+
+.truck-from-container::before,
+.truck-to-container::before {
+	content: ' ';
+	position: absolute;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background: #b5bbbe;
+	left: -5px;
+	top: 17px;
+}
+
+.truck-from-container::after {
+	content: ' ';
+	position: absolute;
+	width: 1px;
+	height: 100%;
+	background: #b5bbbe;
+	left: -1px;
+	top: 30%;
+}
+
+.truck-origin,
+.truck-destination {
+	font-family: ProximaNova-Bold;
+	font-size: 18px;
+	color: #0a2127;
+	letter-spacing: 0.45px;
+	line-height: 20px;
+}
+
+.truck-origin-duration,
+.truck-destination-duration {
+	font-family: ProximaNova-Regular;
+	font-size: 16px;
+	color: #7f8d99;
+	letter-spacing: 0.4px;
+	line-height: 20px;
+}
+
+.truck-details-text {
+	font-family: ProximaNova-Regular;
+	font-size: 18px;
+	color: #0b2127;
+	letter-spacing: 0.45px;
+	line-height: 20px;
+}
+
+.truck-details-price {
+	font-family: ProximaNova-Bold;
+	font-size: 18px;
+	color: #49a54e;
+	letter-spacing: 0.45px;
+	text-align: right;
+	line-height: 20px;
+}
+
+.truck-distance-container,
+.truck-street-container,
+.truck-price-container {
+	padding: 0.75rem 0;
+}
